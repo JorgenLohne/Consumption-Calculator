@@ -1,0 +1,24 @@
+// Compare household consumption to the average household consumption in Norway
+POST http://localhost:8080/api/v0/compareConsumption
+Content-Type: application/json
+
+{
+  "commodityAndServiceGroup": {
+    "foodAndBeverages": 0,
+    "alcoholTobaccoNarcotics": 0,
+    "clothingAndFootwear": 0,
+    "housing": 0,
+    "housingAndUtilities": 0,
+    "furnishingsAndHouseholdEquipment": 0,
+    "health": 0,
+    "transport": 0,
+    "communication": 0,
+    "recreationAndCulture": 0,
+    "education": 0,
+    "restaurantsAndHotels": 0,
+    "insuranceAndFinancialServices": 0,
+    "other": 0
+  }
+}
+
+###
