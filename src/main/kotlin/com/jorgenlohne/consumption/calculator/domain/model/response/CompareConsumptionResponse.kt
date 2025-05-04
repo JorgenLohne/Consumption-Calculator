@@ -5,7 +5,6 @@ data class CompareConsumptionResponse(
     val alcoholTobaccoNarcotics: Int?,
     val clothingAndFootwear: Int?,
     val housing: Int?,
-    val housingAndUtilities: Int?,
     val furnishingsAndHouseholdEquipment: Int?,
     val health: Int?,
     val transport: Int?,
@@ -14,5 +13,5 @@ data class CompareConsumptionResponse(
     val education: Int?,
     val restaurantsAndHotels: Int?,
     val insuranceAndFinancialServices: Int?,
-    val personalCare: Int?,
+    val other: Int?,
 )

@@ -35,7 +35,6 @@ class HouseHoldConsumptionCalculatorController(private val houseHoldConsumptionC
             alcoholTobaccoNarcotics = commodityAndServiceGroupDifference.alcoholTobaccoNarcotics,
             clothingAndFootwear = commodityAndServiceGroupDifference.clothingAndFootwear,
             housing = commodityAndServiceGroupDifference.housing,
-            housingAndUtilities = commodityAndServiceGroupDifference.housingAndUtilities,
             furnishingsAndHouseholdEquipment = commodityAndServiceGroupDifference.furnishingsAndHouseholdEquipment,
             health = commodityAndServiceGroupDifference.health,
             transport = commodityAndServiceGroupDifference.transport,
@@ -44,7 +43,7 @@ class HouseHoldConsumptionCalculatorController(private val houseHoldConsumptionC
             education = commodityAndServiceGroupDifference.education,
             restaurantsAndHotels = commodityAndServiceGroupDifference.restaurantsAndHotels,
             insuranceAndFinancialServices = commodityAndServiceGroupDifference.insuranceAndFinancialServices,
-            personalCare = commodityAndServiceGroupDifference.personalCare
+            other = commodityAndServiceGroupDifference.other
         )
 
         return ResponseEntity.ok(responseBody)
