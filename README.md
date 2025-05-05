@@ -4,6 +4,7 @@ A REST API microservice written in Kotlin to compare a norwegian households inco
 
 Lets Norweigan households compare their spending to the national average (numbers are from 2022).
 
+Submission for [Stacc - Budgeting and savings](https://github.com/stacc/stacc-challenge-public/tree/budgeting-and-savings)
 
 
 ## Run locally
