@@ -85,3 +85,4 @@ where the numbers for each cateogry indicates the difference between the submitt
   - Have request take consuption by month instead for the full year.
 - Add openAPI / swagger spec
 - Cache responses from SSB.
+- add a frontend
