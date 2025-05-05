@@ -73,3 +73,14 @@ The service will respond with a json body:
 }
 ```
 where the numbers for each cateogry indicates the difference between the submitted households income, and the average (for the year 2022) for Norway in NOK. Negative numbers indicate that the household income submitted has a lower spending than average, while positive number mean that they have a higher spending than average. 
+
+
+## Potential future improvements
+
+- Add tests (unit & integration)
+- Make service more consumer friendly:
+  - Add helpful error messages.
+  - Make the currency more obvious.
+  - Have request take consuption by month instead for the full year.
+- Add openAPI / swagger spec
+- Cache responses from SSB.
